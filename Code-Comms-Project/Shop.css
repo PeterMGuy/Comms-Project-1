@@ -1,0 +1,71 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+} 
+
+/* Navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar properties */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Navbar shifted left */
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+/* Navbar right-aligned content */
+.topnav-right {
+  float: right;
+  border-left: 1px solid #bbb;
+}
+
+/* Navbar hover color */
+li:hover:not(.active) {
+  background-color: #00d13f;
+}
+
+/* Media Queries used to resize */
+@media screen and (max-width: 800px) {
+  .navbar {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+} 
+
+/* flower container */
+.flowers-container {
+  display: flex;
+  flex-direction: column; /* NEW */
+  text-align:center;
+  background-color: #ffe5f0;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding:15px;
+}
+
+/* flower price */
+.textbox,.price {
+  text-align:center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #d9d9d9;
+}

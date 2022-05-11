@@ -1,0 +1,96 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+} 
+
+/* Navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar properties */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Navbar shifted left */
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+/* Navbar right-aligned content */
+.topnav-right {
+  float: right;
+  border-left: 1px solid #bbb;
+}
+
+/* Navbar hover color */
+li:hover:not(.active) {
+  background-color: #00d13f;
+}
+
+/* Media Queries used to resize */
+@media screen and (max-width: 800px) {
+  .navbar {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+} 
+    
+/* The hero image */
+.hero-image {
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 115vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Place text in the middle of the heroimage */
+.hero-text {
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  padding:3px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  border: 15px solid #2900bd;
+  background-color:#ff9ee5;
+}
+
+h1 {
+  font-size:60px;
+}
+
+#button {
+  display: block;
+  border: 2px solid white;
+  border-radius: 35px;
+  background-color: white;
+  padding:10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #d9d9d9;
+}
